@@ -1,0 +1,60 @@
+@font-face {
+  font-family: maFont;
+  src: url(./font/Dosis-Medium.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: maFont;
+}
+
+.container {
+  background: skyblue;
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid rgb(59, 184, 233);
+  border-radius: 1rem;
+  text-align: center;
+}
+
+#titre {
+  color: rgb(192, 1, 1);
+}
+
+#color {
+  width: 300px;
+  height: 150px;
+  background: rgb(0, 0, 0);
+  margin: auto;
+}
+
+#response-box {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  grid-template-columns: 40% 40%;
+  grid-row-gap: 10px;
+  justify-content: space-around;
+}
+
+.response {
+  padding: 5px;
+  border: 0;
+  border-radius: 0.5rem;
+  background: blue;
+  color: white;
+}
+
+.response:hover {
+  background: rgb(50, 50, 255);
+  cursor: pointer;
+}
+
+#score {
+  color: rgb(0, 68, 255);
+}
+#score span {
+  color: crimson;
+}
